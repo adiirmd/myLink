@@ -117,6 +117,18 @@ button:hover {
   text-align: center;
 }
 
+body::-webkit-scrollbar-track {
+  background: #15151d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
+}
+
+body::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
 @media screen and (max-width: 576px) {
   .footer {
     margin-top: 25%;
