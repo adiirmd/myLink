@@ -1,8 +1,6 @@
 <h1 align="center">@adiirmd Contact</h1>
 
-<img src="https://media.tenor.com/dUzmPZzZQqIAAAAC/talking-ryuko-matoi.gif" alt="adiirmd" style="width: 50%; height: auto;" >
-
-<p align="center">gatau wkwkwk.</p>
+<h3>Base code nya punya orang, lupa siapa gua cuma recode</h3>
 
 ## Buat Beli Kopi hehe
 
