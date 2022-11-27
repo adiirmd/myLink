@@ -24,7 +24,7 @@
 
   <body class="adiirmd">
     <div class="container">
-      <img class="profile rounded-circle animate__animated animate__slideInDown animate__delay-0.5s" src="assets/img/adi.jpg" alt="adiirmd" title="adiirmd" />
+      <img class="profile rounded-circle animate__animated animate__slideInDown animate__delay-0.5s" src="assets/img/adi.jpg" alt="adiirmd" />
 
       <h5 class="fonts animate__animated animate__slideInUp animate__delay-0.6s">adiirmd <span style="color: #ffffff" class="fas fa-check-circle"></span></h5>
 
@@ -34,17 +34,27 @@
       <h4 class="fonts animate__animated animate__zoomIn animate__delay-0.5s mb-4"><strong>My Link</strong></h4>
 
       <div class="button-m">
-        <button onclick="window.open('https://instagram.com/adiirmd')" class="rell animate__animated animate__backInRight animate__delay-1.5s" title="My Instagram">
+        <button onclick="window.open('https://twitter.com/adiirmd')" class="rell animate__animated animate__backInRight" title="My Twitter">
+          <p>Twitter</p>
+        </button>
+
+        <button onclick="window.open('https://instagram.com/adiirmd')" class="rell animate__animated animate__backInRight" title="My Instagram">
           <p>Instagram</p>
         </button>
 
-        <button onclick="window.open('https://www.facebook.com/profile.php?id=100035278831821')" class="rell animate__animated animate__backInLeft animate__delay-1s" title="My Facebook">
+        <button onclick="window.open('https://t.me/adiirmd')" class="rell animate__animated animate__backInLeft" title="My Telegram">
+          <p>
+            <span>Telegram</span>
+          </p>
+        </button>
+
+        <button onclick="window.open('https://www.facebook.com/profile.php?id=100035278831821')" class="rell animate__animated animate__backInLeft" title="My Facebook">
           <p>
             <span>Facebook</span>
           </p>
         </button>
 
-        <button onclick="window.open('mailto:adiromadhon0@gmail.com?subject=Salam%20Kenal&body=Halo%20Bang')" class="rell animate__animated animate__backInLeft animate__delay-2s" title="My Email">
+        <button onclick="window.open('mailto:adirmdhn@proton.me?subject=Salam%20Kenal&body=Halo%20Bang')" class="rell animate__animated animate__backInUp" title="My Email">
           <p>
             <span>Email</span>
           </p>
@@ -56,12 +66,22 @@
     <script>
       var typed = new Typed(".typed", {
         strings: ["Student.", "Human."],
-        typeSpeed: 100,
+        typeSpeed: 150,
         backSpeed: 75,
         loop: true,
         loopCount: Infinity,
-        showCursor: false,
+        showCursor: true,
       });
+    </script>
+
+    <script>
+      document.addEventListener(
+        "contextmenu",
+        function (e) {
+          e.preventDefault();
+        },
+        false
+      );
     </script>
   </body>
 </html>

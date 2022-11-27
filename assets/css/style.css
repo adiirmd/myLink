@@ -17,14 +17,12 @@ h6,
 p,
 pre {
   font-family: FredokaOne, monospace;
+  overflow-x: hidden;
 }
+
 .adiirmd {
   color: rgb(255, 255, 255) !important;
-  background-image: url(../img/bg.jpg) !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #15151d;
   height: 100%;
 }
 
@@ -72,13 +70,14 @@ span.typed {
   letter-spacing: 2px;
   align-items: center;
   justify-content: center;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 h4.fonts {
   color: #ffffff;
   padding: 40px;
   font-size: 17px;
+  margin-top: -15px;
 }
 
 .link {
