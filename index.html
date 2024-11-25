@@ -18,6 +18,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <script src="assets/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   </head>
@@ -34,28 +37,30 @@
       <h4 class="fonts animate__animated animate__zoomIn animate__delay-0.5s mb-4"><strong>Connect With Me</strong></h4>
 
       <div class="button-m">
-        <button onclick="window.open('https://twitter.com/adiirmd')" class="rell animate__animated animate__backInRight" title="My Twitter">
-          <p>Twitter</p>
-        </button>
-
-        <button onclick="window.open('https://instagram.com/adiirmd')" class="rell animate__animated animate__backInRight" title="My Instagram">
-          <p>Instagram</p>
-        </button>
-
         <button onclick="window.open('https://t.me/adiirmd')" class="rell animate__animated animate__backInLeft" title="My Telegram">
           <p>
+            <ion-icon name="paper-plane-outline"></ion-icon>
             <span>Telegram</span>
           </p>
         </button>
 
-        <button onclick="window.open('https://www.facebook.com/profile.php?id=100035278831821')" class="rell animate__animated animate__backInLeft" title="My Facebook">
+        <button onclick="window.open('https://instagram.com/adiirmd')" class="rell animate__animated animate__backInRight" title="My Instagram">
           <p>
-            <span>Facebook</span>
+            <ion-icon name="logo-instagram"></ion-icon>
+            Instagram
+          </p>
+        </button>
+
+        <button onclick="window.open('https://github.com/adiirmd/')" class="rell animate__animated animate__backInLeft" title="My Facebook">
+          <p>
+            <ion-icon name="logo-github"></ion-icon>
+            <span>Github</span>
           </p>
         </button>
 
         <button onclick="window.open('mailto:adirmdhn@proton.me?subject=Salam%20Kenal&body=Halo%20Bang')" class="rell animate__animated animate__backInUp" title="My Email">
           <p>
+            <ion-icon name="mail-outline"></ion-icon>
             <span>Email</span>
           </p>
         </button>
@@ -65,8 +70,8 @@
 
     <script>
       var typed = new Typed(".typed", {
-        strings: ["Student.", "Human."],
-        typeSpeed: 150,
+        strings: ["Infrastructure Engineer.", "Network Engineer.", "Human"],
+        typeSpeed: 135,
         backSpeed: 75,
         loop: true,
         loopCount: Infinity,
